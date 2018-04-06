@@ -1,0 +1,111 @@
+
+
+.dev-estimate {
+    margin: 10px 20px;
+}
+
+.cost-estimate {
+    display: flex;
+    flex-flow: wrap;
+    margin: 10px auto;
+}
+
+.skill {
+    background-color: #e4f5ff;
+    color: #0093ee;
+    padding: 6px 8px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 0.9rem;
+    width: 23%;
+    position: relative;
+}
+
+.skill span {
+    position: absolute;
+    right: 8px;
+}
+.upload {
+    display: flex;
+}
+
+.upload-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.upload-button button {
+    border: none;
+    background-color: #0090f7;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'circularBook';
+}
+
+.upload-button.outline button {
+    margin-left: 10px;
+    border: 1px solid #eeeeee;
+    color: #0090f7;
+    background-color: #fff;
+
+}
+
+
+.task-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 40px auto;
+
+}
+
+.task-number {
+    padding: 5rem 1rem;
+    background-color: #edf8fa;
+    border-radius: 10rem;
+}
+.task-number p:first-child, .task-dev {
+    color: #415570;
+}
+
+.task-dev {
+    padding-top: 10px;
+}
+
+.tasks {
+    padding: 10px;
+}
+
+.requirements {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#cost-estimator {
+    display: flex;
+    margin-top: 10px;
+}
+
+#cost-estimator span:nth-child(2) {
+    margin-left: auto;
+}
+
+#progressbar2 {
+    background-color: #e4f5ff;
+    border-radius: 12px; /* (height of inner div) / 2 + padding */
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#progressbar2 > div {
+    background-color: #0090f7;
+    width: 40%; /* Adjust with JavaScript */
+    height: 4px;
+    border-radius: 10px;
+}

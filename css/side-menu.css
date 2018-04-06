@@ -1,0 +1,115 @@
+
+
+
+.side-menu {
+    background-color: #fff;
+    width: 25%;
+    /* height: 100vh; */
+}
+.side-header {
+    margin: 5px 10px;
+}
+
+.side-intro {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.user-name {
+    color: black;
+}
+
+.side-welcome {
+    margin: auto 0px auto auto;
+}
+
+.side-welcome p {
+    font-size: 1.2rem;
+}
+
+.user-project, .side-footer-option {
+    display: flex;
+}
+
+.project-avatar img, .side-footer-option-avatar img, .sender-avatar img {
+    width: 3rem;
+    border-radius: 10px;
+}
+
+.project-detail, .side-footer-option-detail {
+    margin-left: 10px;
+}
+
+.side-intro, .side-search, .user-projects h1 {
+    padding-left: 10px; 
+    margin-bottom: 35px;
+}
+
+.user-project {
+    padding: 15px 10px;
+    margin-right: 10px;
+}
+
+.user-project.is-active {
+    background-color: #fafbfc;
+    border-radius: 3px; 
+}
+
+.start-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.start-button button {
+    border: none;
+    background-color: #0090f7;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'circularBook';
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('../img/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px;
+    padding-left: 40px;
+    width: 75%;
+    border: 2px solid #fcfcfc;
+    border-radius: 3px; 
+    font-size: 1rem;
+    font-family: 'circularBook';
+    color: #b8bcc4;
+}
+
+input[type=text]::placeholder {
+    font-family: CircularBook;
+    color: #b8bcc4;
+}
+
+.dc-logo img {
+    width: 3rem;
+    border-radius: 3rem;
+    padding-top: 5px;
+}
+
+.side-footer-option.is-active {
+    border: 2px solid #eee;
+}
+
+.side-footer-option {
+    padding: 15px 10px;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    border-radius: 4px; 
+}
+
+.footer-container {
+    padding-top: 30px;
+    margin: 20px 4px 20px 10px;
+    border-top: 2px solid #eee;
+}

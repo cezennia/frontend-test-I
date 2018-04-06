@@ -1,0 +1,61 @@
+/* 
+@font-face {
+    font-family: Circular-Book;
+    src: url("../fonts/Circular-Fonts/Circular-Std-Book.otf") format("opentype");
+} */
+
+/* @font-face {
+    font-family: Circular-Bold;
+    /* font-weight: bold; */
+    /* src: url("../fonts/Circular-Fonts/Circular-Std-Bold.otf") format("opentype"); */
+/* } */
+
+@font-face {
+    font-family: circularBook;
+    src: url(../fonts/lineto-circular-pro-book.woff);
+}
+
+@font-face {
+    font-family: circularMedium;
+    src: url(../fonts/lineto-circular-pro-medium.woff);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'circularBook';
+    background-color: #fbfbfb;
+}
+
+h1, h2, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+p, a {
+    color: #b8bcc4;
+    font-size: 1rem;
+}
+
+h1 {
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+h2 {
+    color: #4a4a4a;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.body-content {
+    background-color: #fbfbfb;
+    display: flex;
+    /* width: 1200px; */
+    margin: auto;
+}
+
+html {
+    font-size: 12px;
+}
